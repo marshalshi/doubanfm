@@ -18,6 +18,8 @@ playListView = Backbone.View.extend({
         },
         nextSong: function(e){
             e.preventDefault();
+            $('audio')[0].pause();
             $('source').attr('src', play_list[1].url);
+            $('audio')[0].load();
         }
     });
