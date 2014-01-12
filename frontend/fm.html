@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}js/underscore-1.4.4.js"></script>
+    <script src="{{ STATIC_URL }}js/backbone.js"></script>
+    <script src="{{ STATIC_URL }}js/models.js"></script>
+    <script src="{{ STATIC_URL }}js/views.js"></script>
+    <script src="{{ STATIC_URL }}js/start.js"></script>
+  </head>
+  <title> Test FM </title>
+
+<body>
+  <div id="playarea">
+    <audio controls="controls" autoplay="autoplay">
+      <source src="http://mr3.douban.com/201401121541/8c554949e77cb54b4703345969d3f78b/view/song/small/p344227.mp3"
+              type='audio/mpeg' />
+      
+      <p>Your user agent does not support the HTML5 Audio element.</p>
+    </audio>
+
+    <input type="button" id="next" value="NEXT"/>
+  </div>
+
+</body>
+
+</html>
+     
